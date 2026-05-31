@@ -1,0 +1,24 @@
+﻿{
+  "googleDrive": {
+    "folderId": "1vkyojTAfy5J8vkg1tHIyqJcJsz24AfTe",
+    "folderName": "Rotaract Gallery",
+    "enableCaching": true,
+    "cacheDurationMs": 1900800000,
+    "cacheDurationDays": 22,
+    "cacheDurationLabel": "22 days",
+    "useStaticCacheFile": true,
+    "staticCacheFile": "/gallery-cache.json"
+  },
+  "gallery": {
+    "pageTitle": "Service in Sight",
+    "pageDescription": "Explore the visual narrative of our journey—from intense rural medical camps to the heartwarming moments of fellowship and community outreach.",
+    "defaultFilter": "All Works",
+    "itemsPerPage": 12,
+    "enableLoadMore": true
+  },
+  "notes": {
+    "folderId": "Replace with your actual Google Drive folder ID. Format: 1234567890abcdefg",
+    "cacheDurationMs": "Time in milliseconds (86400000 = 24 hours, 3600000 = 1 hour, 604800000 = 7 days)",
+    "folderStructure": "Each subfolder name becomes the event/category name. Images inside are fetched automatically."
+  }
+}

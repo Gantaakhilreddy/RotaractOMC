@@ -1,0 +1,255 @@
+{
+  "hero": {
+    "title": "The Faces Behind the Service",
+    "description": "Guided by the mission of humanitarian service and medical excellence, our leadership team orchestrates the vision of the Rotaract Club of Osmania Medical College."
+  },
+  "years": {
+    "2025-2026": {
+      "backgroundImage": "src/data/picsweb/picsweb1/22 batch/sravan.jpeg",
+      "team": [
+        {
+          "id": "president",
+          "name": "Rtr. Sravan Reddy Ganta",
+          "role": "President",
+          "image": "src/data/picsweb/picsweb1/22 batch/sravan.jpeg",
+          "socials": [
+            {
+              "icon": "groups",
+              "label": "LinkedIn",
+              "url": "https://www.linkedin.com/in/sravan-reddy-ganta-739917261"
+            }
+          ]
+        },
+        {
+          "id": "ipp",
+          "name": "Rtr. Bhagyasri Vemuri",
+          "role": "Immediate Past President",
+          "image": "src/data/picsweb/picsweb1/22 batch/IMG-20240809-WA0066.jpg",
+          "socials": []
+        },
+        {
+          "id": "secretary",
+          "name": "Rtr. Bindu Lahari J",
+          "role": "Secretary",
+          "image": "src/data/picsweb/picsweb1/22 batch/IMG-20260528-WA0055.jpg",
+          "socials": []
+        },
+        {
+          "id": "vice-president",
+          "name": "Rtr. Pruthvi Karthik K",
+          "role": "Vice President",
+          "image": "src/data/picsweb/picsweb1/22 batch/dc19945e-6781-4025-92a5-8cf2d0ba7220.jpg",
+          "socials": []
+        },
+        {
+          "id": "treasurer",
+          "name": "Rtr. Yash Biyani",
+          "role": "Treasurer",
+          "image": "src/data/picsweb/picsweb1/22 batch/9c5d70c2-ad48-4e4c-96a8-d56e7e8dbb52.jpg",
+          "socials": []
+        },
+        {
+          "id": "saa",
+          "name": "Rtr. Shyam Sundar Reddy",
+          "role": "Sergeant at Arms",
+          "image": "src/data/picsweb/picsweb1/22 batch/Shyam sundar Reddy 19_12.jpg",
+          "socials": []
+        },
+        {
+          "id": "dpi",
+          "name": "Rtr. Malya Dharshitha",
+          "role": "Director of Public Image",
+          "image": "src/data/picsweb/picsweb1/22 batch/c22f2063-ee37-4045-8212-618b64c4f875.jpg",
+          "socials": []
+        },
+        {
+          "id": "dis",
+          "name": "Rtr. Akshara Gadi",
+          "role": "Director of International Services",
+          "image": "src/data/picsweb/picsweb1/22 batch/IMG-20260528-WA0081.jpg",
+          "socials": []
+        },
+        {
+          "id": "dps",
+          "name": "Rtr. Sai Ashwitha",
+          "role": "Director of Professional Services",
+          "image": "src/data/picsweb/picsweb1/22 batch/Ashwitha 20_12.jpg",
+          "socials": []
+        },
+        {
+          "id": "dm",
+          "name": "Rtr. Vishnu Priya",
+          "role": "Director of Membership",
+          "image": "src/data/picsweb/picsweb1/22 batch/d8ba48b3-955c-4397-a184-6b2d79474bce.jpg",
+          "socials": []
+        },
+        {
+          "id": "dcs",
+          "name": "Rtr. Bhavana Mustyala",
+          "role": "Director of Club Services",
+          "image": "src/data/picsweb/picsweb1/22 batch/IMG_9762.JPG",
+          "socials": []
+        },
+        {
+          "id": "dlf",
+          "name": "Rtr. Maithili Priya",
+          "role": "Director of Logistics and Foundation",
+          "image": "src/data/picsweb/picsweb1/22 batch/Maithili 22 december.jpg",
+          "socials": []
+        },
+        {
+          "id": "dpr",
+          "name": "Rtr. Vaishnavi B",
+          "role": "Director of Public Relations",
+          "image": "",
+          "socials": []
+        },
+        {
+          "id": "dcommserv1",
+          "name": "Rtr. Atika Hafeez",
+          "role": "Director of Community Services",
+          "image": "src/data/picsweb/picsweb1/22 batch/IMG-20260528-WA0069.jpg",
+          "socials": []
+        },
+        {
+          "id": "dcommserv2",
+          "name": "Rtr. Tahoora Fatima",
+          "role": "Director of Community Services",
+          "image": "",
+          "socials": []
+        },
+        {
+          "id": "dcc",
+          "name": "Rtr. Siri Varshini",
+          "role": "Director of Content and Creation",
+          "image": "src/data/picsweb/picsweb1/22 batch/IMG-20260528-WA0150.jpg",
+          "socials": []
+        },
+        {
+          "id": "dphotog",
+          "name": "Rtr. Sachin Chandra",
+          "role": "Director of Photography",
+          "image": "src/data/picsweb/picsweb1/22 batch/8e20696d-797d-481a-ad2f-a400b4b3c896.jpg",
+          "socials": []
+        },
+        {
+          "id": "ycl",
+          "name": "Rtr. Manoj Kumar Reddy",
+          "role": "Youth Contact Leader",
+          "image": "src/data/picsweb/picsweb1/22 batch/IMG-20260528-WA0076.jpg",
+          "socials": []
+        },
+        {
+          "id": "jsecretary",
+          "name": "Rtr. Pooja Naidu",
+          "role": "Joint Secretary",
+          "image": "src/data/picsweb/picsweb1/e4972e77-7360-47da-8252-7401fafc5859 - Pooja Naidu.jpeg",
+          "socials": []
+        },
+        {
+          "id": "jtreasurer",
+          "name": "Rtr. Murali Krishna",
+          "role": "Joint Treasurer",
+          "image": "src/data/picsweb/picsweb1/Murali krishna reddy1178b419-024e-4de6-8a4a-a57bd397f6d7.jpg",
+          "socials": []
+        },
+        {
+          "id": "jdpi1",
+          "name": "Rtr. Parmeeth Teki",
+          "role": "Joint Director of Public Image",
+          "image": "src/data/picsweb/picsweb1/IMG_8939 - Parmeeth Teki.jpeg",
+          "socials": []
+        },
+        {
+          "id": "jdpi2",
+          "name": "Rtr. Mohith Arja",
+          "role": "Joint Director of Public Image",
+          "image": "src/data/picsweb/picsweb1/Mohith IMG_8048.JPG",
+          "socials": []
+        },
+        {
+          "id": "jdis",
+          "name": "Rtr. Jayashankar",
+          "role": "Joint Director of International Services",
+          "image": "src/data/picsweb/picsweb1/IMG_20250622_100101 - Jayashankar jampula.jpg",
+          "socials": []
+        },
+        {
+          "id": "jdps",
+          "name": "Rtr. Soha Ali",
+          "role": "Joint Director of Professional Services",
+          "image": "src/data/picsweb/picsweb1/IMG_20250910_194938 - Soha Ali.jpg",
+          "socials": []
+        },
+        {
+          "id": "jdm",
+          "name": "Rtr. Tejas Sai",
+          "role": "Joint Director of Membership",
+          "image": "src/data/picsweb/picsweb1/IMG-20260528-WA0031.jpg",
+          "socials": []
+        },
+        {
+          "id": "jdcs",
+          "name": "Rtr. Darshan",
+          "role": "Joint Director of Club Services",
+          "image": "src/data/picsweb/picsweb1/IMG_20250910_212002 - Darshan raj 4118.jpg",
+          "socials": []
+        },
+        {
+          "id": "jdlf",
+          "name": "Rtr. Sushmitha",
+          "role": "Joint Director of Logistics and Foundation",
+          "image": "src/data/picsweb/picsweb1/ab45e603-5ee0-4df0-8c73-b20f649b1f8f.jpg",
+          "socials": []
+        },
+        {
+          "id": "jdcommserv",
+          "name": "Rtr. Kavya Keerthika",
+          "role": "Joint Director of Community Services",
+          "image": "src/data/picsweb/picsweb1/IMG_2782 - Kavya Keerthika Kankanampati.jpeg",
+          "socials": []
+        },
+        {
+          "id": "jdpr",
+          "name": "Rtr. Jai Sashank",
+          "role": "Joint Director of Public Relations",
+          "image": "src/data/picsweb/picsweb1/IMG_5643 - JAI SASHANK.jpeg",
+          "socials": []
+        },
+        {
+          "id": "jdcc",
+          "name": "Rtr. Vinuthna Namburu",
+          "role": "Joint Director of Content and Creation",
+          "image": "src/data/picsweb/picsweb1/IMG-20250317-WA0052 - Namburu Vinuthna.jpg",
+          "socials": []
+        },
+        {
+          "id": "jdphotog",
+          "name": "Rtr. Ram Ruthwik",
+          "role": "Joint Director of Photography",
+          "image": "src/data/picsweb/picsweb1/bd724e50-a99e-43a2-8258-6cc99783e1ad - Pooja Naidu.jpeg",
+          "socials": []
+        }
+      ]
+    },
+    "2024-2025": {
+      "backgroundImage": "src/data/picsweb/picsweb1/e4972e77-7360-47da-8252-7401fafc5859 - Pooja Naidu.jpeg",
+      "team": [
+            {
+            "id": "president",
+            "name": "Rtr. Pooja Naidu",
+            "role": "President",
+            "image": "",
+            "socials": []
+
+        }
+      ]
+    }
+  },
+  "cta": {
+    "title": "Want to join the leadership?",
+    "description": "We are always looking for dedicated members of Osmania Medical College to take on responsibilities and lead our club towards a better future.",
+    "primaryButtonText": "Apply Now",
+    "secondaryButtonText": "Read Guidelines"
+  }
+}

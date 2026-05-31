@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "eyebrow": "Our Impact",
+    "title": "Events & Service Initiatives",
+    "description": "Bridging medical excellence with community service through meticulously planned outreach and healthcare programs."
+  },
+  "upcomingSection": {
+    "title": "Upcoming Drives",
+    "description": "Join our next missions to serve the community.",
+    "periodLabel": "June 2026"
+  },
+  "upcomingEvents": [
+    {
+      "id": "hpvhpb-screening-camp",
+      "title": "Hepatitis B and HPV Vaccination Drive",
+      "date": "Date to be announced soon",
+      "description": "Our upcoming vaccination drive is dedicated to protecting everyone against Hepatitis B and HPV, ensuring a healthier and more secure community for the future.",
+      "location": "OMC Campus",
+      "image": "src/data/picsweb/vaccination.jpeg",
+      "badge": "Crucial",
+      "linkText": "Read More",
+      "linkUrl": "#"
+    }
+  ],
+  "pastSection": {
+    "title": "Past Successes",
+    "description": "The milestones that define our journey of service."
+  },
+  "years": {
+    "2024-2025": {
+      "pastEvents": [
+        {
+          "id": "pediatric-vaccination-drive",
+          "title": "Pediatric Vaccination Drive",
+          "status": "COMPLETED: AUG 2024",
+          "description": "Successfully immunized over 1,200 children against preventable diseases in urban slums.",
+          "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDnUveOHNnQhwCYQq9RS-i0tEATcCV4inbS57FjBiqOGRfO82wd3tHInFswZBA4rioquZzwZGddl_gODAY95JBf6eZunZlNxx6mEHdQjYsBLkN3aMwMdcblkPUFTBBa5KImetqchw9Me2Ms8tlvehO-IPd1k97PqmYluEc7Z9uVOwpmHZNjluhySmZdmuEpW-VCaipPfI4te8EtMikoJdSSnzMaQeurjnXuR7uQtZ7hq3DBSJrcpesyHc23o7dley7m_IYSR3jMFR4q",
+          "linkText": "View Gallery",
+          "linkUrl": "#"
+        },
+        {
+          "id": "ncd-screening",
+          "title": "Non-Communicable Disease Screening",
+          "status": "COMPLETED: JULY 2024",
+          "description": "Screened 2,500+ citizens for Diabetes and Hypertension during the OMC Health Fair.",
+          "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDh85TtSJ2j_pfKLXHrgxoBqQnba6t50neWgFSq8xqqGCZ-pWJc46L6_WlciDxszgL835_dvQmlrcmeRvGD5ZKHmXbx8bj-efIG0uC_jfxGBZUEG_1JtmLfZBpp2h1D7xI3uO7iaW2EJ8yaveSS0fNPwvUsGKZ7FWVLSjb4J6wJE_o-Ii9fWHBGlivr2r4lDjk3QmI_AkcKg8XdSkySD6-SM1mDSGbXP-47hCG9XPOBbxe3sh6vNrW1z74jx827zAMkmBj8qq9rAsYF",
+          "linkText": "View Gallery",
+          "linkUrl": "#"
+        }
+      ]
+    },
+    "2023": {
+      "pastEvents": [
+        {
+          "id": "community-health-fair-2023",
+          "title": "Community Health Fair",
+          "status": "COMPLETED: DEC 2023",
+          "description": "Large-scale screening and awareness camp reaching 3,000+ participants.",
+          "image": "https://via.placeholder.com/600x400?text=Community+Health+Fair+2023",
+          "linkText": "View Gallery",
+          "linkUrl": "#"
+        }
+      ]
+    },
+    "2025-2026": {
+      "pastEvents": [
+        {
+          "id": "community-health-fair-2026",
+          "title": "RRR: Respond, Rescue, Revive",
+          "status": "COMPLETED: APRIL 2026",
+          "description": "Dedicated to saving lives, the RRR program has trained 5,000+ beneficiaries via hands-on demonstrations. Key training sites include Rashtrapati Nilayam, IIT Hyderabad, police departments (special forces), and the High Court.",
+          "image": "src/data/picsweb/RRR.jpeg",
+          "linkText": "View Gallery",
+          "linkUrl": "#"
+        },
+        {
+          "id": "stree",
+          "title": "Stree",
+          "status": "COMPLETED: MARCH 2026",
+          "description": "Stree is our comprehensive women's health program. It's designed to empower and educate through talks on menstrual hygiene, awareness about breast and cervical cancer, and teaching how to do breast self-examinations",
+          "image": "src/data/picsweb/stree.jpeg",
+          "linkText": "View Gallery",
+          "linkUrl": "#"
+        },
+        {
+          "id": "SILVERSTRIDES",
+          "title": "Silver Strides",
+          "status": "COMPLETED: APRIL 2026",
+          "description": "Silver Strides was an awareness program we held in old age homes to share information on health concerns. We focused on key topics like diabetes, hypertension, kidney and liver diseases, arthritis, and the risks of heart attacks and strokes.",
+          "image": "src/data/picsweb/silver strides.jpeg",
+          "linkText": "View Gallery",
+          "linkUrl": "#"
+        }
+      ]
+    }
+  },
+  "cta": {
+    "title": "Ready to make a difference?",
+    "description": "Whether you are a medical student or a professional, your skills can change a life today.",
+    "primaryButtonText": "Volunteer for Next Drive",
+    "secondaryButtonText": "Support Our Work"
+  }
+}
