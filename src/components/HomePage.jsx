@@ -57,7 +57,13 @@ export default function HomePage() {
         <div className="container hero__content">
           <div className="hero__copy reveal">
             <p className="eyebrow">{homeContent?.hero?.eyebrow}</p>
-            <h1>{homeContent?.hero?.title}</h1>
+            <h1 className="hero-title">
+              <span className="hero-title__line">
+                <span>Rotaract Club</span>{' '}
+                <em className="hero-title__of">of</em>
+              </span>
+              <span className="hero-title__line hero-title__line--college">Osmania Medical College</span>
+            </h1>
             <p className="hero__lede">{homeContent?.hero?.lede}</p>
 
             <div className="hero__actions">

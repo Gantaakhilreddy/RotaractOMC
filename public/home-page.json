@@ -6,16 +6,24 @@
     "intervalMs": 5000,
     "slides": [
       {
-        "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuASOxJNYuKZl-bqopao-518xJj-opyFB-hCiRtwMAh9219lt-qWwwEG9G8mAh5IqZ5aOlxCKKo9zQW_3AGVmJHZZ1GgKQLtChyMCydlX8W5wuNIIHUVnvjwGB64boNrGRYoLFaXgQKDImQ6G7N6VTL7JPC97Io5SpsDi2bMYptw_02YojhVqYNFCR5Jz4B1xiI_8S5ZEQAaeYTOsuwgvQmGOfTy4aWjKvh9au-XSkAYXqcfWLLbC-n6RVGGbvPCYuRMoAw6yT7kjVk5",
+        "src": "src/data/picsweb/HomePageSlider/picone.jpeg",
         "alt": "Medical students collaborating in a bright clinical setting"
       },
       {
-        "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBezHd70w2vDJpwoj3BQOsfOGIm-AdhARZW8tVk_GdeUH0TZKspDp5ixZj3sXSXYT5pTYVxpB2xJg3iZbOzstCQ9YrpdY3fEeMMhq4LlcHAMeSEDJUDNVw5m6scg0ucI1sXlK3HBRjcV5KCJyN9pFDhZtyztpGxDga8tTJcn3XK5qYDXgC_Cn0pXwM1Prst2YMTBA8WrgaKPXv0c2Q9wMPLo8Mv1oX7EQXSaXVp7MlIKoYNIJkE8Hf8JoNrCoaQS-tJhgIrtq_5f_qH",
+        "src": "src/data/picsweb/HomePageSlider/PicTwo.jpeg",
         "alt": "Rotaract volunteers at a medical camp"
       },
       {
-        "src": "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&w=1600&q=80",
+        "src": "src/data/picsweb/HomePageSlider/PicThree.jpeg",
         "alt": "Community outreach by Rotaract OMC"
+      },
+      {
+        "src": "src/data/picsweb/HomePageSlider/PicFour.jpeg",
+        "alt": "Rotaract OMC members engaging in a workshop"
+      },
+      {
+        "src": "src/data/picsweb/HomePageSlider/PicFive.jpeg",
+        "alt": "A group photo of Rotaract OMC volunteers"
       }
     ],
     "actions": [
@@ -39,7 +47,7 @@
     "locationTitle": "Osmania Medical College",
     "locationSubtitle": "Koti, Hyderabad",
     "image": {
-      "src": "rc/data/picsweb/picsweb1/22 batch/GroupPhoto.jpeg",
+      "src": "src/data/picsweb/OMC.png",
       "alt": "Medical Camp in Action"
     },
     "quote": "\"To provide sustainable healthcare solutions through youth leadership and medical expertise.\""

@@ -219,27 +219,49 @@
 .home-hero h1,
 .hero h1 {
     font-family: 'Hanken Grotesk', system-ui, sans-serif;
-    /* Reduce the maximum size and make it responsive so the long club name fits on one line */
-    font-size: clamp(1.8rem, 3.6vw, 2.6rem);
+    font-size: clamp(2rem, 4.1vw, 3.2rem);
     font-weight: 800;
     color: #ffffff;
     margin: 0 0 1rem;
-    line-height: 1.05;
-    /* Try to keep the heading on a single line and scale instead of wrapping */
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    line-height: 1.04;
     display: block;
-    max-width: 100%;
+    max-width: 18ch;
+    letter-spacing: -0.02em;
+}
+
+.hero-title {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.hero-title__line {
+    display: block;
+    text-wrap: balance;
+}
+
+.hero-title__line--college {
+    white-space: nowrap;
+}
+
+.hero-title__of {
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.92);
 }
 
 /* On very small screens allow wrapping to avoid clipped text */
 @media (max-width: 480px) {
     .home-hero h1,
     .hero h1 {
-        white-space: normal;
-        font-size: clamp(1.2rem, 5vw, 1.6rem);
+        font-size: clamp(1.45rem, 7vw, 2rem);
         line-height: 1.15;
+        max-width: 12ch;
+    }
+
+    .hero-title {
+        gap: 0.12rem;
     }
 }
 

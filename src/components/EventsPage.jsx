@@ -1,9 +1,11 @@
 import './Events.css';
 import eventsData from '../data/events.json';
 import { useMemo, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { resolveAssetPath } from '../utils/assetResolver';
 
 const EventsPage = () => {
+    const navigate = useNavigate();
     const hero = eventsData.hero;
     const upcomingSection = eventsData.upcomingSection || {};
     const pastSection = eventsData.pastSection || {};
@@ -62,9 +64,13 @@ const EventsPage = () => {
                                             {event.description}
                                         </p>
                                         <div className="event-card__footer">
-                                            <a href={event.linkUrl} className="event-link">
+                                            <button
+                                                type="button"
+                                                className="event-link"
+                                                onClick={() => navigate('/gallery')}
+                                            >
                                                 {event.linkText} <span className="material-symbols-outlined" style={{ fontSize: '16px' }}>arrow_forward</span>
-                                            </a>
+                                            </button>
                                             <span className="event-card__location">{event.location}</span>
                                         </div>
                                     </div>
@@ -111,9 +117,13 @@ const EventsPage = () => {
                                         <p className="past-card__desc">
                                             {event.description}
                                         </p>
-                                        <a href={event.linkUrl} className="past-link">
+                                        <button
+                                            type="button"
+                                            className="past-link"
+                                            onClick={() => navigate('/gallery')}
+                                        >
                                             {event.linkText} <span className="material-symbols-outlined" style={{ fontSize: '16px' }}>chevron_right</span>
-                                        </a>
+                                        </button>
                                     </div>
                                 </article>
                             ))}

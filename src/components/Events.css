@@ -257,11 +257,10 @@
 .year-selector select {
     appearance: none;
     -webkit-appearance: none;
-    -moz-appearance: none;
     padding: 0.5rem 2.5rem 0.5rem 0.85rem; /* room for chevron */
     border-radius: 0.5rem;
     border: 1px solid var(--outline-variant);
-    background: linear-gradient(180deg, var(--surface-elevated), var(--surface-elevated));
+    background-color: var(--surface-elevated);
     color: var(--on-surface);
     font-weight: 700;
     cursor: pointer;
@@ -394,6 +393,16 @@
     display: inline-flex;
     align-items: center;
     gap: 0.25rem;
+}
+
+button.event-link,
+button.past-link {
+    appearance: none;
+    border: 0;
+    background: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
 }
 
 .event-link:hover { text-decoration: underline; }

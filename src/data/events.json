@@ -19,7 +19,7 @@
       "image": "src/data/picsweb/vaccination.jpeg",
       "badge": "Crucial",
       "linkText": "Read More",
-      "linkUrl": "#"
+      "linkUrl": "/gallery"
     }
   ],
   "pastSection": {
@@ -36,7 +36,7 @@
           "description": "Successfully immunized over 1,200 children against preventable diseases in urban slums.",
           "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDnUveOHNnQhwCYQq9RS-i0tEATcCV4inbS57FjBiqOGRfO82wd3tHInFswZBA4rioquZzwZGddl_gODAY95JBf6eZunZlNxx6mEHdQjYsBLkN3aMwMdcblkPUFTBBa5KImetqchw9Me2Ms8tlvehO-IPd1k97PqmYluEc7Z9uVOwpmHZNjluhySmZdmuEpW-VCaipPfI4te8EtMikoJdSSnzMaQeurjnXuR7uQtZ7hq3DBSJrcpesyHc23o7dley7m_IYSR3jMFR4q",
           "linkText": "View Gallery",
-          "linkUrl": "#"
+          "linkUrl": "/gallery"
         },
         {
           "id": "ncd-screening",
@@ -45,7 +45,7 @@
           "description": "Screened 2,500+ citizens for Diabetes and Hypertension during the OMC Health Fair.",
           "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDh85TtSJ2j_pfKLXHrgxoBqQnba6t50neWgFSq8xqqGCZ-pWJc46L6_WlciDxszgL835_dvQmlrcmeRvGD5ZKHmXbx8bj-efIG0uC_jfxGBZUEG_1JtmLfZBpp2h1D7xI3uO7iaW2EJ8yaveSS0fNPwvUsGKZ7FWVLSjb4J6wJE_o-Ii9fWHBGlivr2r4lDjk3QmI_AkcKg8XdSkySD6-SM1mDSGbXP-47hCG9XPOBbxe3sh6vNrW1z74jx827zAMkmBj8qq9rAsYF",
           "linkText": "View Gallery",
-          "linkUrl": "#"
+          "linkUrl": "/gallery"
         }
       ]
     },
@@ -58,7 +58,7 @@
           "description": "Large-scale screening and awareness camp reaching 3,000+ participants.",
           "image": "https://via.placeholder.com/600x400?text=Community+Health+Fair+2023",
           "linkText": "View Gallery",
-          "linkUrl": "#"
+          "linkUrl": "/gallery"
         }
       ]
     },
@@ -71,7 +71,7 @@
           "description": "Dedicated to saving lives, the RRR program has trained 5,000+ beneficiaries via hands-on demonstrations. Key training sites include Rashtrapati Nilayam, IIT Hyderabad, police departments (special forces), and the High Court.",
           "image": "src/data/picsweb/RRR.jpeg",
           "linkText": "View Gallery",
-          "linkUrl": "#"
+          "linkUrl": "/gallery"
         },
         {
           "id": "stree",

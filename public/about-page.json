@@ -60,7 +60,7 @@
       "title": "Founding Era",
       "description": "In the year 2020, the Rotaract Club of Osmania Medical College was founded with the core motto “Where Service Meets Medicine.” Established by passionate medical students, the club was created to bridge healthcare and humanitarian service, providing a platform for future doctors to contribute beyond classrooms and hospitals while creating a meaningful impact in society.",
       "icon": "history",
-      "image": "src/data/picsweb/picsweb1/22 batch/GroupPhoto.jpeg",
+      "image": "src/data/picsweb/AboutPagee/Formation.jpeg",
       "alt": "Founding Members"
     },
     {
@@ -68,7 +68,7 @@
       "title": "Grassroots Penetration",
       "description": "Over the years, the club expanded its reach through numerous social service initiatives including blood donation drives, clothes donation campaigns, food donation programs, RRR activities, awareness campaigns, and community welfare events. From campus-based activities to impactful outreach programs, Rotaract OMC steadily strengthened its presence by touching countless lives through consistent service and dedication.",
       "icon": "trending_up",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAFIr3aJckHBzqWakET8d4aDdyz5plUysDeVj2Bif5hyIXPl939WWML5xBl6k-YaNwDNytumy_Pnzk5wJZJpcR6ZpyfOQ_bHtklJEEV3PZJq1-dpkm7aawQsRsdIT3sJuICXJisC6EM6Nxf1yXQREmoFmM-jDtEeAQbuu0ApkBZ77DwXFvobreZdh62PaMtxFbF2q4sgbNPVsgoGrx_lzg-sfTJvXAvp89n1E_V32bT6C-8lD-4Y0TTjjr3xh_yKwRn01clSfVaK0Es",
+      "image": "src/data/picsweb/AboutPagee/Expansion.jpeg",
       "alt": "Community Outreach",
       "reverse": true
     },
@@ -77,7 +77,7 @@
       "title": "Modern Leadership",
       "description": "Today, Rotaract OMC stands as one of the most active institutional clubs, proving that even as medical students, meaningful social impact is possible. With 11,000+ beneficiaries, successful service projects, and a growing legacy of humanitarian work, the club continues to inspire young medical professionals to lead with compassion, leadership, and commitment toward society.",
       "icon": "star",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCE8XKVhX48mY3EvX_QNLNug_z02HXCl5QTUDT4hKilKo3cDJi_rzK28K90a-qED1Fxk88T3ST8hImaw4q3Yeb3R_swUDO1Mr3RQLqKr-hzSgFwPy5_ycDHX6KqKcSzwCMFP9ypCF5PIWPDPJAsUCu7fMabjHbQqPlTANkxsJKF4tN6eMYsS8oolzvCvT-oRgrawFloqiTZS4E79VOXI_O5gx5mQ_9f6tDG16a2Noy6vpjSt66mvhfo5XBbxlogrz5yyQK5DmTAagwn",
+        "image": "src/data/picsweb/AboutPagee/PicThree.jpeg",
       "alt": "Current Team"
     }
   ],

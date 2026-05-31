@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { useNavigate, Outlet } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { useNavigate, Outlet, useLocation } from 'react-router-dom'
 import R3150Logo from '../assets/R3150.jpeg'
 import RotaryLogo from '../assets/Rotary.jpeg'
 import RomcLogo from '../assets/ROMC.png'
@@ -16,18 +16,33 @@ const navLinks = [
 const footerColumns = [
   {
     title: 'Quick Links',
-    links: ['Our History', 'Annual Reports', 'Major Projects', 'Member Portal'],
+    links: [
+      { label: 'Home', target: '/' },
+      { label: 'About', target: '/about' },
+      { label: 'Events', target: '/events' },
+      { label: 'Team', target: '/team' },
+      { label: 'Gallery', target: '/gallery' },
+      { label: 'Contact', target: '/contact' },
+    ],
   },
   {
     title: 'Connect',
-    links: ['Instagram', 'LinkedIn', 'Twitter', 'Facebook'],
+    links: [
+      { label: 'Instagram', target: 'https://www.instagram.com/rotaract_omc', external: true },
+      { label: 'LinkedIn', target: 'https://www.linkedin.com/company/rotaract-club-of-omc/', external: true },
+    ],
   },
 ]
 
 export default function Layout() {
   const navigate = useNavigate()
+  const location = useLocation()
   const currentPath = window.location.pathname
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [location.pathname])
 
   const handleNavClick = (target) => {
     navigate(target)
@@ -156,14 +171,20 @@ export default function Layout() {
               <h3>{column.title}</h3>
               <ul>
                 {column.links.map((link) => (
-                  <li key={link}>
-                    <button
-                      className="footer__link-button"
-                      type="button"
-                      onClick={() => navigate('/')}
-                    >
-                      {link}
-                    </button>
+                  <li key={link.label}>
+                    {link.external ? (
+                      <a className="footer__link-button" href={link.target} target="_blank" rel="noreferrer">
+                        {link.label}
+                      </a>
+                    ) : (
+                      <button
+                        className="footer__link-button"
+                        type="button"
+                        onClick={() => navigate(link.target)}
+                      >
+                        {link.label}
+                      </button>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -175,13 +196,12 @@ export default function Layout() {
             <address>
               <span>Osmania Medical College, Koti, Hyderabad, 500095</span>
               <a href="mailto:info@rotaractomc.org">info@rotaractomc.org</a>
-              <a href="tel:+919876543210">+91 98765 43210</a>
             </address>
           </div>
         </div>
 
         <div className="container footer__fineprint">
-          <p>© 2024 Rotaract Club of Osmania Medical College. All rights reserved.</p>
+          <p>© 2026 Rotaract Club of Osmania Medical College. All rights reserved.</p>
         </div>
       </footer>
     </div>
