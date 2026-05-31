@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './About.css'
+import { resolveAssetPath } from '../utils/assetResolver'
 
 const AboutPage = () => {
     const [aboutContent, setAboutContent] = useState(null)
@@ -67,7 +68,7 @@ const AboutPage = () => {
                                 if (card.type === 'image') {
                                     return (
                                         <div className="bento-card bento-card--image" key={card.type}>
-                                            <img src={card.src} alt={card.alt} />
+                                            <img src={resolveAssetPath(card.src)} alt={card.alt} />
                                             <div className="bento-card--image-content">
                                                 <h3>{card.title}</h3>
                                                 <p>{card.description}</p>
@@ -135,7 +136,7 @@ const AboutPage = () => {
                                         <span className="material-symbols-outlined">{item.icon}</span>
                                     </div>
                                     <div className="timeline-image">
-                                        <img src={item.image} alt={item.alt} />
+                                        <img src={resolveAssetPath(item.image)} alt={item.alt} />
                                     </div>
                                 </div>
                             ))}

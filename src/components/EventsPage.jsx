@@ -1,6 +1,7 @@
 import './Events.css';
 import eventsData from '../data/events.json';
 import { useMemo, useState } from 'react';
+import { resolveAssetPath } from '../utils/assetResolver';
 
 const EventsPage = () => {
     const hero = eventsData.hero;
@@ -47,8 +48,8 @@ const EventsPage = () => {
                         <div className="events-grid">
                             {upcomingEvents.map((event) => (
                                 <article key={event.id} className="event-card">
-                                    <div className="event-card__image">
-                                        <img src={event.image} alt={event.title} />
+                                        <div className="event-card__image">
+                                        <img src={resolveAssetPath(event.image)} alt={event.title} />
                                         {event.badge ? <span className="event-card__badge">{event.badge}</span> : null}
                                     </div>
                                     <div className="event-card__content">
@@ -102,7 +103,7 @@ const EventsPage = () => {
                             {(yearData.pastEvents || []).map((event) => (
                                 <article key={event.id} className="past-card">
                                     <div className="past-card__image">
-                                        <img src={event.image} alt={event.title} />
+                                        <img src={resolveAssetPath(event.image)} alt={event.title} />
                                     </div>
                                     <div className="past-card__content">
                                         <span className="past-card__status">{event.status}</span>

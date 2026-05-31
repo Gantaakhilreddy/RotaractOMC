@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import './Home.css'; // Assume stylesheet is saved here
 import StatCounter from './StatCounter'
+import { resolveAssetPath } from '../utils/assetResolver'
 
 export default function HomePage() {
   const navigate = useNavigate()
@@ -40,14 +41,17 @@ export default function HomePage() {
       <section className="hero" id="home">
         <div className="hero__overlay" />
         <div className="hero__bg" aria-hidden="true">
-          {heroImages.map((slide, i) => (
-            <img
-              key={slide.src || i}
-              className={`hero__image ${i === active ? 'active' : ''}`}
-              src={slide.src}
-              alt={i === active ? slide.alt : ''}
-            />
-          ))}
+          {heroImages.map((slide, i) => {
+            const src = resolveAssetPath(slide.src);
+            return (
+              <img
+                key={slide.src || i}
+                className={`hero__image ${i === active ? 'active' : ''}`}
+                src={src}
+                alt={i === active ? slide.alt : ''}
+              />
+            )
+          })}
         </div>
 
         <div className="container hero__content">
@@ -108,8 +112,8 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="intro-image-wrapper reveal" style={{ transitionDelay: '200ms' }}>
-            <img src={homeContent?.intro?.image?.src} alt={homeContent?.intro?.image?.alt} />
+            <div className="intro-image-wrapper reveal" style={{ transitionDelay: '200ms' }}>
+            <img src={resolveAssetPath(homeContent?.intro?.image?.src)} alt={homeContent?.intro?.image?.alt} />
             <div className="intro-quote">
               <p>{homeContent?.intro?.quote}</p>
             </div>
