@@ -138,8 +138,19 @@ const EventsPage = () => {
                             <h2>{cta.title}</h2>
                             <p>{cta.description}</p>
                             <div className="cta-actions">
-                                <button className="button button--accent">{cta.primaryButtonText}</button>
-                                <button className="button button--outline">{cta.secondaryButtonText}</button>
+                                <button
+                                    className="button button--accent"
+                                    onClick={() => window.location.href = cta.primaryButtonLink}
+                                >
+                                    {cta.primaryButtonText}
+                                </button>
+
+                                <button
+                                    className="button button--outline"
+                                    onClick={() => window.location.href = cta.secondaryButtonLink}
+                                >
+                                    {cta.secondaryButtonText}
+                                </button>
                             </div>
                         </div>
                     </div>

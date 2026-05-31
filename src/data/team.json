@@ -250,6 +250,8 @@
     "title": "Want to join the leadership?",
     "description": "We are always looking for dedicated members of Osmania Medical College to take on responsibilities and lead our club towards a better future.",
     "primaryButtonText": "Apply Now",
-    "secondaryButtonText": "Read Guidelines"
+    "primaryButtonLink": "/contact",
+    "secondaryButtonText": "Read Guidelines",
+    "secondaryButtonLink": "/contact"
   }
 }

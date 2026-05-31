@@ -98,6 +98,8 @@
     "title": "Ready to make a difference?",
     "description": "Whether you are a medical student or a professional, your skills can change a life today.",
     "primaryButtonText": "Volunteer for Next Drive",
-    "secondaryButtonText": "Support Our Work"
+    "primaryButtonLink": "/contact",
+    "secondaryButtonText": "Support Our Work",
+    "secondaryButtonLink": "/contact"
   }
 }
