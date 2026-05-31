@@ -17,6 +17,13 @@
   --shadow-hero: 0 30px 80px rgba(0, 0, 0, 0.28);
 }
 
+/* Global box-sizing reset for consistent rendering */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .page-shell {
   min-height: 100vh;
   background:

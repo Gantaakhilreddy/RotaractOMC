@@ -2,16 +2,56 @@ import './Team.css';
 import teamData from '../data/team.json';
 import { useMemo, useState } from 'react';
 
-const backgroundImages = import.meta.glob('../data/picsweb/**/*.{jpg,jpeg,png,PNG,JPG,JPEG,webp,WEBP}', {
+// Import all team images from the picsweb directory - support common image formats
+const backgroundImages = import.meta.glob('../data/picsweb/**/*.{jpg,jpeg,JPG,JPEG,png,PNG,webp,WEBP,gif,GIF}', {
     eager: true,
     import: 'default'
 });
 
 const resolveAssetPath = (assetPath) => {
-    if (!assetPath) return '';
-
-    const normalizedPath = assetPath.replace(/^src\//, '../');
-    return backgroundImages[normalizedPath] || '';
+    if (!assetPath || assetPath.trim() === '') return '';
+    
+    try {
+        // Get the filename from the path
+        const filename = assetPath.split('/').pop();
+        if (!filename) return '';
+        
+        // First, try to find a matching image by filename in glob imports
+        const matchedKey = Object.keys(backgroundImages).find(key => {
+            const keyFilename = key.split('/').pop();
+            return keyFilename === filename;
+        });
+        
+        if (matchedKey && backgroundImages[matchedKey]) {
+            return backgroundImages[matchedKey];
+        }
+        
+        // For HEIC files and other assets not in glob, use them as-is
+        // Vite will serve them from the public/src directory
+        if (filename.toLowerCase().endsWith('.heic')) {
+            return `/src/${assetPath}`;
+        }
+        
+        // Fallback: try direct key matches with different path formats
+        const pathVariations = [
+            assetPath,
+            `/src/${assetPath}`,
+            assetPath.replace(/^src\//, '../'),
+            `../data/picsweb/${assetPath.split('picsweb/')[1] || ''}`,
+        ];
+        
+        for (const variant of pathVariations) {
+            if (variant && backgroundImages[variant]) {
+                return backgroundImages[variant];
+            }
+        }
+        
+        // If still not found, return as-is (might be an asset path)
+        return `/src/${assetPath}`;
+    } catch (err) {
+        console.error('[Team] Failed to resolve asset path:', assetPath, err);
+        return '';
+    }
 };
 
 const TeamPage = () => {
@@ -66,11 +106,13 @@ const TeamPage = () => {
                         )}
                     </div>
                     <div className="board-grid">
-                        {teamMembers.map((member) => (
+                        {teamMembers.map((member) => {
+                            const resolvedImage = member.image ? resolveAssetPath(member.image) : '';
+                            return (
                             <article key={member.id} className="board-card">
-                                {member.image && (
+                                {resolvedImage && (
                                     <div className="board-card__image">
-                                        <img src={member.image} alt={member.name} />
+                                        <img src={resolvedImage} alt={member.name} loading="lazy" />
                                     </div>
                                 )}
                                 <h3>{member.name}</h3>
@@ -85,7 +127,8 @@ const TeamPage = () => {
                                     </div>
                                 )}
                             </article>
-                        ))}
+                            );
+                        })}
                     </div>
                 </section>
 
