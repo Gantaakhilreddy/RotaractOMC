@@ -1,0 +1,105 @@
+{
+  "header": {
+    "eyebrow": "Our Commitment",
+    "title": "About Our Mission",
+    "description": "Bridging the gap between medical expertise and grassroots community needs. We empower medical students to lead, serve, and transform healthcare through proactive altruism."
+  },
+  "bentoCards": [
+    {
+      "type": "mission",
+      "icon": "medical_services",
+      "title": "Our Mission",
+      "description": "To mobilize the medical student community of Osmania Medical College towards impactful service. We leverage clinical knowledge to deliver sustainable health interventions, educational workshops, and humanitarian relief in underserved areas.",
+      "bullets": [
+        "Empowering future doctors through leadership development.",
+        "Executing high-precision medical camps and screening drives."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuDdrRxDf3oZp01DS9SmxOu2oM5UHXEc_bWEmyuPJSn_5InOhnyUmME60cTGYK2z4wkGSNHwVihtaTP0SniBOYwBR3a-KWF5a4FA7A5VXAbc0UFr7IlNsGKw1wlbEKYkKa5dLrAZLqv0t7D_LKsUp_R5rqMGpcXAujBwDR5fIt1VGerg4GduRtbItJO4OKiDg44KEC-SmAwcQ7zLPCIWBe_5N30p5g_MWsQi6HLG1Za_F8o7a8teLJ--9Oklvf43bwkxAHF3GD-z-4V5",
+      "alt": "Global Impact Visualization",
+      "title": "Global Impact",
+      "description": "Local action, international standards."
+    },
+    {
+      "type": "vision",
+      "icon": "visibility",
+      "title": "Our Vision",
+      "description": "To be the benchmark for student-led medical social responsibility, fostering a generation of doctors who treat humanity, not just patients."
+    },
+    {
+      "type": "values",
+      "title": "Core Values",
+      "description": "Precision in action, compassion in intent, and integrity in service. These three pillars define every project undertaken by Rotaract OMC.",
+      "values": [
+        {
+          "icon": "favorite",
+          "label": "Service",
+          "className": "core-value__icon--service"
+        },
+        {
+          "icon": "groups",
+          "label": "Fellowship",
+          "className": "core-value__icon--fellowship"
+        },
+        {
+          "icon": "school",
+          "label": "Integrity",
+          "className": "core-value__icon--integrity"
+        }
+      ]
+    }
+  ],
+  "timelineSection": {
+    "title": "A Legacy of Service"
+  },
+  "timeline": [
+    {
+      "eyebrow": "The Inception",
+      "title": "Founding Era",
+      "description": "In the year 2020, the Rotaract Club of Osmania Medical College was founded with the core motto “Where Service Meets Medicine.” Established by passionate medical students, the club was created to bridge healthcare and humanitarian service, providing a platform for future doctors to contribute beyond classrooms and hospitals while creating a meaningful impact in society.",
+      "icon": "history",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB4L9Li_kx08a78Ke5tvpzQ0WWGZ6EPh1HU0fH1_CHrJ4Frd1zPCtRmDKg2Fdh6BMTp2QSLPRYDwgFHL4G7CVWn8BktLxIUxrWQXY5w3KjrwD8XRrGIgESWVhQpt8czU0aW1onKRGUBXFNLXOF8XldvvTjr69WFt2iIE4d6_le7a9nDfP4YMuhC3JURM7KT2h4BYpW7rFg_Rnb52REnUs0vtBfVq7vQSIh_nZP7V390R46y6q3r36hr-jZ6pslNboKs6nN8HhKPXqrG",
+      "alt": "Founding Members"
+    },
+    {
+      "eyebrow": "Expansion",
+      "title": "Grassroots Penetration",
+      "description": "Over the years, the club expanded its reach through numerous social service initiatives including blood donation drives, clothes donation campaigns, food donation programs, RRR activities, awareness campaigns, and community welfare events. From campus-based activities to impactful outreach programs, Rotaract OMC steadily strengthened its presence by touching countless lives through consistent service and dedication.",
+      "icon": "trending_up",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAFIr3aJckHBzqWakET8d4aDdyz5plUysDeVj2Bif5hyIXPl939WWML5xBl6k-YaNwDNytumy_Pnzk5wJZJpcR6ZpyfOQ_bHtklJEEV3PZJq1-dpkm7aawQsRsdIT3sJuICXJisC6EM6Nxf1yXQREmoFmM-jDtEeAQbuu0ApkBZ77DwXFvobreZdh62PaMtxFbF2q4sgbNPVsgoGrx_lzg-sfTJvXAvp89n1E_V32bT6C-8lD-4Y0TTjjr3xh_yKwRn01clSfVaK0Es",
+      "alt": "Community Outreach",
+      "reverse": true
+    },
+    {
+      "eyebrow": "Present Day",
+      "title": "Modern Leadership",
+      "description": "Today, Rotaract OMC stands as one of the most active institutional clubs, proving that even as medical students, meaningful social impact is possible. With 11,000+ beneficiaries, successful service projects, and a growing legacy of humanitarian work, the club continues to inspire young medical professionals to lead with compassion, leadership, and commitment toward society.",
+      "icon": "star",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCE8XKVhX48mY3EvX_QNLNug_z02HXCl5QTUDT4hKilKo3cDJi_rzK28K90a-qED1Fxk88T3ST8hImaw4q3Yeb3R_swUDO1Mr3RQLqKr-hzSgFwPy5_ycDHX6KqKcSzwCMFP9ypCF5PIWPDPJAsUCu7fMabjHbQqPlTANkxsJKF4tN6eMYsS8oolzvCvT-oRgrawFloqiTZS4E79VOXI_O5gx5mQ_9f6tDG16a2Noy6vpjSt66mvhfo5XBbxlogrz5yyQK5DmTAagwn",
+      "alt": "Current Team"
+    }
+  ],
+  "metrics": [
+    {
+      "value": "50+",
+      "label": "Years Legacy"
+    },
+    {
+      "value": "200+",
+      "label": "Active Members",
+      "secondary": true
+    },
+    {
+      "value": "500k+",
+      "label": "Lives Impacted"
+    },
+    {
+      "value": "1k+",
+      "label": "Medical Camps",
+      "secondary": true
+    }
+  ]
+}
+

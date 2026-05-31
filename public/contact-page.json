@@ -1,0 +1,133 @@
+{
+  "hero": {
+    "title": "Get in Touch",
+    "description": "For inquiries regarding our medical camps, fellowship opportunities, or collaborative service projects, please reach out through the channels below. Our team ensures a methodical response within 48 hours."
+  },
+  "form": {
+    "title": "Send a Message",
+    "icon": "mail",
+    "topRowFields": [
+      {
+        "id": "name",
+        "label": "Full Name",
+        "type": "text",
+        "placeholder": "Dr. John Doe",
+        "required": true
+      },
+      {
+        "id": "email",
+        "label": "Email Address",
+        "type": "email",
+        "placeholder": "john.doe@hospital.com",
+        "required": true
+      }
+    ],
+    "subjectField": {
+      "id": "subject",
+      "label": "Subject",
+      "placeholder": "Select a topic",
+      "required": true,
+      "options": [
+        {
+          "value": "collaboration",
+          "label": "Project Collaboration"
+        },
+        {
+          "value": "donation",
+          "label": "Fundraising & Donations"
+        },
+        {
+          "value": "membership",
+          "label": "Membership Inquiry"
+        },
+        {
+          "value": "general",
+          "label": "General Feedback"
+        }
+      ]
+    },
+    "messageField": {
+      "id": "message",
+      "label": "Message",
+      "placeholder": "Please describe your inquiry with as much detail as possible...",
+      "rows": 5,
+      "required": true
+    },
+    "buttonStates": {
+      "idle": {
+        "label": "DISPATCH MESSAGE",
+        "icon": "send"
+      },
+      "sending": {
+        "label": "SENDING...",
+        "icon": "progress_activity"
+      },
+      "success": {
+        "label": "SENT SUCCESSFULLY",
+        "icon": "check_circle"
+      }
+    }
+  },
+  "connectCard": {
+    "title": "",
+    "methods": [
+      {
+        "icon": "alternate_email",
+        "label": "Official Email",
+        "value": "contact@rotaractomc.org"
+      }
+    ],
+    "socialLinks": [
+      {
+        "label": "Instagram",
+        "icon": "camera",
+        "href": "https://www.instagram.com/rotaract_omc"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "work",
+        "href": "https://www.linkedin.com/company/rotaract-club-of-omc/"
+      },
+      {
+        "label": "Twitter",
+        "icon": "share",
+        "href": "#"
+      }
+    ]
+  },
+  "locationCard": {
+    "title": "Visit Our Office",
+    "icon": "location_on",
+    "addressLines": [
+      "Rotaract Club of OMC,",
+      "Osmania Medical College Campus,",
+      "Koti, Hyderabad, Telangana 500001"
+    ],
+    "map": {
+      "src": "src/data/picsweb/img.png",
+      "alt": "Map of Osmania Medical College Campus"
+    },
+    "pinIcon": "medical_services"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "category": "Membership",
+        "question": "Can students from other colleges join?",
+        "answer": "Currently, our primary focus is the OMC community, but we welcome cross-club collaborations for large-scale camps."
+      },
+      {
+        "category": "Donations",
+        "question": "Are donations tax-exempt?",
+        "answer": "Yes, all contributions to our community service projects are channeled through Rotary International 80G foundations."
+      },
+      {
+        "category": "Partnership",
+        "question": "How to propose a medical camp?",
+        "answer": "Please use the contact form and select 'Project Collaboration'. Provide the proposed location and target demographic."
+      }
+    ]
+  }
+}
+

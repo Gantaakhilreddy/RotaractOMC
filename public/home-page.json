@@ -1,0 +1,125 @@
+{
+  "hero": {
+    "eyebrow": "Clinical excellence · Community pulse",
+    "title": "Rotaract Club of OMC",
+    "lede": "Where Service Meets Medicine.",
+    "intervalMs": 5000,
+    "slides": [
+      {
+        "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuASOxJNYuKZl-bqopao-518xJj-opyFB-hCiRtwMAh9219lt-qWwwEG9G8mAh5IqZ5aOlxCKKo9zQW_3AGVmJHZZ1GgKQLtChyMCydlX8W5wuNIIHUVnvjwGB64boNrGRYoLFaXgQKDImQ6G7N6VTL7JPC97Io5SpsDi2bMYptw_02YojhVqYNFCR5Jz4B1xiI_8S5ZEQAaeYTOsuwgvQmGOfTy4aWjKvh9au-XSkAYXqcfWLLbC-n6RVGGbvPCYuRMoAw6yT7kjVk5",
+        "alt": "Medical students collaborating in a bright clinical setting"
+      },
+      {
+        "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBezHd70w2vDJpwoj3BQOsfOGIm-AdhARZW8tVk_GdeUH0TZKspDp5ixZj3sXSXYT5pTYVxpB2xJg3iZbOzstCQ9YrpdY3fEeMMhq4LlcHAMeSEDJUDNVw5m6scg0ucI1sXlK3HBRjcV5KCJyN9pFDhZtyztpGxDga8tTJcn3XK5qYDXgC_Cn0pXwM1Prst2YMTBA8WrgaKPXv0c2Q9wMPLo8Mv1oX7EQXSaXVp7MlIKoYNIJkE8Hf8JoNrCoaQS-tJhgIrtq_5f_qH",
+        "alt": "Rotaract volunteers at a medical camp"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Community outreach by Rotaract OMC"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Discover Our Impact",
+        "to": "/about",
+        "className": "button button--primary button--icon",
+        "icon": "arrow_forward"
+      },
+      {
+        "label": "Join the Movement",
+        "to": "/contact",
+        "className": "button button--secondary"
+      }
+    ]
+  },
+  "intro": {
+    "eyebrow": "Our Mission",
+    "title": "Service through Medicine",
+    "description": "Based at the historic Osmania Medical College, Rotaract OMC bridges the gap between clinical excellence and community service. We believe that true healing extends beyond the hospital walls, reaching into the heart of underserved communities through structured medical interventions and compassionate care.",
+    "locationTitle": "Osmania Medical College",
+    "locationSubtitle": "Koti, Hyderabad",
+    "image": {
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBezHd70w2vDJpwoj3BQOsfOGIm-AdhARZW8tVk_GdeUH0TZKspDp5ixZj3sXSXYT5pTYVxpB2xJg3iZbOzstCQ9YrpdY3fEeMMhq4LlcHAMeSEDJUDNVw5m6scg0ucI1sXlK3HBRjcV5KCJyN9pFDhZtyztpGxDga8tTJcn3XK5qYDXgC_Cn0pXwM1Prst2YMTBA8WrgaKPXv0c2Q9wMPLo8Mv1oX7EQXSaXVp7MlIKoYNIJkE8Hf8JoNrCoaQS-tJhgIrtq_5f_qH",
+      "alt": "Medical Camp in Action"
+    },
+    "quote": "\"To provide sustainable healthcare solutions through youth leadership and medical expertise.\""
+  },
+  "impactStats": [
+    {
+      "icon": "volunteer_activism",
+      "value": "60+",
+      "label": "Projects"
+    },
+    {
+      "icon": "group_add",
+      "value": "230+",
+      "label": "Active Members"
+    },
+    {
+      "icon": "medical_services",
+      "value": "11,000+",
+      "label": "Lives Impacted"
+    },
+    {
+      "icon": "clinical_notes",
+      "value": "7000+",
+      "label": "Volunteer Hours"
+    }
+  ],
+  "avenues": {
+    "eyebrow": "WHAT WE DO",
+    "title": "Our Avenues",
+    "description": "Discover the activities creating meaningful impact across Hyderabad and beyond",
+    "items": [
+      {
+        "icon": "🤝",
+        "title": "Community Service",
+        "description": "Community Service focuses on creating meaningful impact in society through initiatives that address real community needs. From education and health to sustainability and social welfare, this avenue aims to serve communities and bring positive change through action and service."
+      },
+      {
+        "icon": "📈",
+        "title": "Professional Development",
+        "description": "Professional Development is dedicated to helping members enhance their personal and professional skills. Through workshops, training sessions, networking opportunities, and interactive activities, this avenue empowers members to grow as future leaders and professionals."
+      },
+      {
+        "icon": "🌍",
+        "title": "International Relations",
+        "description": "International Relations builds global connections and promotes cultural exchange by collaborating with clubs across different districts and countries. It creates opportunities for networking, friendship, partnerships, and learning beyond geographical boundaries.",
+        "featured": true
+      },
+      {
+        "icon": "📸",
+        "title": "Public Image",
+        "description": "Public Image showcases the impact and identity of the club through strategic communication, storytelling, and digital engagement. This avenue strengthens outreach by highlighting projects, achievements, and member journeys."
+      },
+      {
+        "icon": "🏛️",
+        "title": "Club Service",
+        "description": "Club Service strengthens the internal culture of Rotaract through fellowship, planning, and member engagement. It ensures smooth club operations while creating a supportive, collaborative, and motivating environment for everyone."
+      },
+      {
+        "icon": "💰",
+        "title": "Finance",
+        "description": "Finance manages the club's resources with transparency and accountability. From budgeting events to fundraising and sponsorship planning, this avenue ensures that every initiative is financially sustainable and impactful.",
+        "featured": true
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to make a difference?",
+    "description": "Whether you are a medical student looking for experience or a partner wanting to support our cause, there is a place for you in our mission.",
+    "actions": [
+      {
+        "label": "Volunteer with Us",
+        "to": "/contact",
+        "className": "button button--accent"
+      },
+      {
+        "label": "Support Our Initiatives",
+        "to": "/contact",
+        "className": "button button--ghost"
+      }
+    ]
+  }
+}
+
