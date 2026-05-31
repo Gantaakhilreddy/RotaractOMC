@@ -1,9 +1,12 @@
 
+import { resolveAssetPath } from '../utils/assetResolver'
+
 export default function Home({ heroImage, jumpTo }) {
+  const resolvedHero = resolveAssetPath(heroImage)
   return (
     <section className="hero" id="home">
       <div className="hero__overlay" />
-      <img className="hero__image" src={heroImage} alt="Medical students collaborating in a bright clinical setting" />
+      <img className="hero__image" src={resolvedHero} alt="Medical students collaborating in a bright clinical setting" />
 
       <div className="container hero__content">
         <div className="hero__copy reveal">

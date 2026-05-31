@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './Contact.css'
+import { resolveAssetPath } from '../utils/assetResolver'
 
 const ContactPage = () => {
     const [contactContent, setContactContent] = useState(null)
@@ -160,7 +161,7 @@ const ContactPage = () => {
                             <div className="map-container">
                                 <div className="absolute inset-0 bg-primary/5 z-10 pointer-events-none"></div>
                                 <img
-                                    src={contactContent?.locationCard?.map?.src}
+                                    src={resolveAssetPath(contactContent?.locationCard?.map?.src)}
                                     alt={contactContent?.locationCard?.map?.alt}
                                 />
                                 <div className="map-pin-wrapper z-20">
