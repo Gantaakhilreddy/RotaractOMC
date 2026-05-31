@@ -12,7 +12,7 @@ export default function Home({ heroImage, jumpTo }) {
         <div className="hero__copy reveal">
           <p className="eyebrow">Clinical excellence · Community pulse</p>
           <h1>Rotaract OMC</h1>
-          <p className="hero__lede">Where Service.</p>
+          <p className="hero__lede">Where Service Meets Medicine.</p>
 
           <div className="hero__actions">
             <button className="button button--primary button--icon" type="button" onClick={() => jumpTo('impact')}>
